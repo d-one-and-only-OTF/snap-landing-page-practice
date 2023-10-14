@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Intro Dropdown Section</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="index.js" defer></script>
+    <link
+      rel="shortcut icon"
+      href="images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header-left">
+        <img src="images/logo.svg" alt="logo" />
+        <nav role="navigation">
+          <div class="arrow-dropdown-1" data-dropdown>
+            <p class="arrow-text">Features</p>
+            <span class="arrow">
+              <span></span>
+              <span></span>
+            </span>
+            <div class="dropdown-content-1" data-dropdown-content>
+              <a href="#"
+                ><span><img src="images/icon-todo.svg" alt="icon-todo" /></span
+                >ToDo List</a
+              >
+              <a href="#"
+                ><span
+                  ><img
+                    src="images/icon-calendar.svg"
+                    alt="icon-calendar" /></span
+                >Calendar</a
+              >
+              <a href="#"
+                ><span
+                  ><img
+                    src="images/icon-reminders.svg"
+                    alt="icon-calendar" /></span
+                >Reminder</a
+              >
+              <a href="#"
+                ><span
+                  ><img
+                    src="images/icon-planning.svg"
+                    alt="icon-planning" /></span
+                >Planning</a
+              >
+            </div>
+          </div>
+          <div class="arrow-dropdown-2" data-dropdown>
+            <p class="arrow-text">Company</p>
+            <span class="arrow">
+              <span></span>
+              <span></span>
+            </span>
+            <div class="dropdown-content-2" data-dropdown-content>
+              <p><a href="#">History</a></p>
+              <p><a href="#">Our Team</a></p>
+              <p><a href="#">Blog</a></p>
+            </div>
+          </div>
+          <a href="#">Careers</a>
+          <a href="#">About</a>
+        </nav>
+      </div>
+      <div class="header-right">
+        <nav>
+          <a href="#">Login</a>
+          <a href="#">Register</a>
+        </nav>
+      </div>
+    </header>
+    <div class="header-mobile">
+      <img src="images/logo.svg" alt="logo" />
+      <img src="images/icon-menu.svg" alt="icon-menu" data-toggler-open />
+      <div class="header-menu-content" data-toggler-content>
+        <div>
+          <img
+            src="images/icon-close-menu.svg"
+            alt="icon-close-menu"
+            data-toggler-close
+          />
+        </div>
+        <p>Features</p>
+        <div class="features-content">
+          <a href="#"
+            ><span><img src="images/icon-todo.svg" alt="icon-todo" /></span>ToDo
+            List</a
+          >
+          <a href="#"
+            ><span
+              ><img src="images/icon-calendar.svg" alt="icon-calendar" /></span
+            >Calendar</a
+          >
+          <a href="#"
+            ><span
+              ><img src="images/icon-reminders.svg" alt="icon-calendar" /></span
+            >Reminder</a
+          >
+          <a href="#"
+            ><span
+              ><img src="images/icon-planning.svg" alt="icon-planning" /></span
+            >Planning</a
+          >
+        </div>
+        <p class="company">Company</p>
+        <div class="company-content">
+          <p><a href="#">History</a></p>
+          <p><a href="#">Our Team</a></p>
+          <p><a href="#">Blog</a></p>
+        </div>
+        <p>Careers</p>
+        <p>About</p>
+        <a href="#">Login</a>
+        <a class="header-mobile-link" href="#">Register</a>
+      </div>
+    </div>
+
+    <div class="main-content" role="main">
+      <div class="main-content-1">
+        <div class="main-content-1-header"><h1>Make Remote work</h1></div>
+        <div class="main-content-1-text">
+          <p>
+            Get your team in sync, no matter your location. Streamline
+            procesess, create team rituals, and watch productivity soar.
+          </p>
+        </div>
+        <a href="#">Learn More</a>
+        <div class="main-content-1-img">
+          <img src="images/client-databiz.svg" alt="client-databiz" />
+          <img src="images/client-audiophile.svg" alt="client-audiophile" />
+          <img src="images/client-meet.svg" alt="client-meet" />
+          <img src="images/client-maker.svg" alt="client-meet" />
+        </div>
+      </div>
+      <div class="main-content-2">
+        <img src="images/image-hero-desktop.png" alt="image-hero-desktop" />
+      </div>
+    </div>
+
+    <div class="main-content-mobile" role="main">
+      <img src="images/image-hero-mobile.png" alt="image-hero-mobile" />
+      <h1>Make remote work</h1>
+      <p>
+        Get your team in sync, no matter your location. Streamline procesess,
+        create team rituals, and watch productivity soar.
+      </p>
+      <div class="mobile-link-div">
+        <a href="#">Learn More</a>
+      </div>
+      <div class="mobile-images">
+        <img src="images/client-databiz.svg" alt="client-databiz" />
+        <img src="images/client-audiophile.svg" alt="client-audiophile" />
+        <img src="images/client-meet.svg" alt="client-meet" />
+        <img src="images/client-maker.svg" alt="client-meet" />
+      </div>
+    </div>
+  </body>
+</html>
